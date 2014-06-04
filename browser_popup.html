@@ -1,0 +1,34 @@
+<html><head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="common.min.css">
+    <link rel="stylesheet" type="text/css" href="browser_action.min.css">
+  </head>
+  <body>
+    <div id="form">
+      <input type="text" id="query-field"><button id="define-btn" class="btn btn-primary" value="Define">Define</button>
+    </div>
+
+    <div id="usage-tip" style="display: block;">统一查询接口为万网</div>
+    <div id="status-box" style="display: block;">
+      <div id="status-msg">等待查询</div>
+    </div>
+
+    <div id="meaning" style="display: none;">
+      <div class="section-name" id="domain-name"> </div>
+      <div>
+        <div id="domain-result"></div>
+      </div>
+      <div>
+        <a href="#" id="domain-wanwang" target="_blank">查看详细</a>
+      </div>
+      <div class="powered-by">
+        Powered by <a href="http://www.net.cn" target="_blank">中国万网</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      © <span id="year">2014</span> PHP
+    </div>
+    <script type="text/javascript" src="jquery-2.0.0.min.js"></script>
+    <script type="text/javascript" src="browser_action.min.js"></script>
+</body></html>
