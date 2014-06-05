@@ -1,21 +1,21 @@
 ﻿{
-	"manifest_version": 2,
-	"name": "firDomin",
-	"description": "快速查询域名注册情况",
-	"version": "0.0.1",
-	"background": { "scripts": ["jquery-2.0.0.min.js"] },
-	"icons": 
-	{ 
-	    "16": "icon.png",             
-	    "48": "icon.png",            
-	    "128": "icon.png" 
-	}, 
-	"browser_action": {
-		"default_icon": "icon.png",
-		"default_title": "search domain", // shown in tooltip
-		"default_popup": "browser_popup.html"
-	},
-	"permissions": [
-	    "http://pandavip.www.net.cn/"
-	]
+    "manifest_version": 2,
+    "name": "firDomin",
+    "description": "快速查询域名注册情况",
+    "version": "0.0.1",
+    "background": { "scripts": ["jquery-2.0.0.min.js"] },
+    "icons": 
+    { 
+        "16": "icon.png",             
+        "48": "icon.png",            
+        "128": "icon.png" 
+    }, 
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title": "search domain",
+        "default_popup": "browser_popup.html"
+    },
+    "permissions": [
+        "http://pandavip.www.net.cn/"
+    ]
 }
