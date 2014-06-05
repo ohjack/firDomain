@@ -3,16 +3,6 @@
 	"name": "firDomin",
 	"version": "0.0.4",
 	"background": { "scripts": ["jquery-2.0.0.min.js"] },
-	/*
-	"page_action": {
-		"default_icon": {
-			"19": "cnblogs_19.png",
-			"38": "cnblogs_38.png"
-		},
-		"default_title": "cnblogs.com article information", // shown in tooltip
-		"default_popup": "popup.html"
-	},
-	*/
 	"browser_action": {
 		"default_icon": "icon.png",
 		"default_title": "search domain", // shown in tooltip
